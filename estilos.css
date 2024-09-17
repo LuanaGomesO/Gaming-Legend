@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.caixa{
+    border: 1px solid black;
+}
+
+.navegacao{
+    position: relative;
+    height: 15%;
+    position: relative;
+    background-color: #5d7995;
+    box-shadow: 2px 3px 2px 3px;
+}
+
+.logo{
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 25%;
+}
+
+.caixa-navegacao{
+    position: relative;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    margin-left: 5%;
+    height: 20%;
+    width: 10%;
+    display: inline-block;
+}
+
+a{
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    transform: scale(1.1);
+}
+
+.principal, .artigo{
+    transform: scale(1.0);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 900;
+    margin-top: 2%;
+}
+
+
+.artigo{
+    background-color: #4c6884;
+    transform: scale(0.9);
+}
+
+.caixa-noticia{
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 25%;
+    height: 40%;
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5%;
+}
+
+.video-noticia{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.noticia{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 73%;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    background-color: #6e89a6;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+h2{
+    position: absolute;
+    transform: scale(0.9);
+    font-family:cursive;
+    top:15%;
+}
+
+.rodape{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    bottom:0;
+    background-color: #5d7995;
+}
+
+.localizacao , .formulario{
+    height: 50%;
+    top: 25%;
+    position: absolute;
+}
+
+.formulario{
+    left: 60%;
+}
+
+.geral-rodape{
+    position: relative;
+    text-decoration: none;
+    color:black;
+    left: 3%;
+    top: 40%;
+}
+
+.email{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+}
+
+p{
+    position: absolute;
+    left: 65%;
+    top:20%;
+}
